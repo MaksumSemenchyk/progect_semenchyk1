@@ -1,0 +1,191 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Titillium Web', sans-serif;
+}
+.team {
+    background-color: #e7f1f8;
+}
+.container {
+    width: 100%;
+    max-width: 1140px;
+    height: 915px;
+    margin: 0 auto;
+}
+.team_members {
+    display: flex;
+    justify-content: space-between;
+}
+.team_card {
+    width: 260px;
+    text-align: center;
+    margin-right: 25px; /* Відступ з правого боку буде 25 пікселів */
+    margin-top: 80px;
+}
+.team_avatar {
+    font-size: 24px;
+    border-radius: 100%;
+    background-color: #878787;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+.main_title{
+    font-size: 40px;
+    height: 55px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 120px;
+}
+
+.main_title::after{
+    content: "";
+    display: block;
+    width: 90px;
+    height: 3px;
+    background-color: #c8d9e5;
+    margin: 25px auto 0;
+}
+.desc_title{
+    font-size: 18px;
+    margin-top: 80px;
+    margin: 30px auto 0;
+    text-align: center;
+    padding-top: 25px;
+    
+}
+.team_social {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    list-style-type: none; /* Видаляє точки списку */
+  }
+  
+  .team_social li {
+    margin-right: 12px;
+  }
+  
+  .team_social li:last-child {
+    margin-right: 0; /* Відсутність відступу справа для останнього елемента */
+  }
+  .PORTFOLIO {
+    background-color: #ffdd99;
+}
+
+.container1 {
+    width: 100%;
+    max-width: 1140px;
+    height: auto; /* Change height to auto */
+    margin: 0 auto;
+}
+
+.main_portfolio {
+    font-size: 40px;
+    height: 55px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 65px;
+}
+
+.main_portfolio::after {
+    content: "";
+    display: block;
+    width: 90px;
+    height: 3px;
+    background-color: #e5c37f;
+    margin: 25px auto 0;
+}
+
+.desc1_title {
+    font-size: 18px;
+    padding-top: 30px;
+    white-space: pre-line;
+    text-align: center;
+    width: 80%;
+    margin: 25px auto 50px;
+}
+
+.container1 {
+    text-align: center;
+}
+
+.button {
+    font-size: 18px;
+    display: inline-block;
+    margin-right: 10px;
+    color: black;
+    text-decoration: none;
+    background-color: #ebc985;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    transition: background-color 0.3s, color 0.3s;
+    height: 45px;
+    width: 100px;
+}
+
+.button:last-child {
+    margin-right: 0;
+}
+
+.button:hover {
+    background-color: white;
+    color: black;
+}
+
+.component-14 {
+    font-size: 18px;
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /* Change justify-content to space-around */
+}
+
+figure {
+    text-align: center;
+    margin: 0 15px;
+    width: 45%; /* Adjust the width to allow two images in a row */
+}
+
+._4,
+._1 {
+    margin-top: 30px; /* Reduce the top margin for better spacing */
+}
+
+img {
+    display: block;
+    margin-bottom: 30px;
+    width: 100%; /* Make the image fill its container */
+    max-width: 100%; /* Ensure the image doesn't exceed its original size */
+}
+
+figcaption {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-top: 10px;
+    margin-bottom: 65px;
+    text-align: center; /* Center the caption text */
+}
+.button1 {
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 80px;
+    margin-bottom: 140px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    background-color: #17c2a4;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+    height: 65px; /* Adjusted height */
+    width: 290px;
+    text-align: center;
+    line-height: 65px; /* Adjusted line-height for vertical centering */
+}
+
+
+
